@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="sw">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maji Safi Delivery - Oda Sasa!</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Styling kwa ajili ya scrollbar (optional) */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #1e40af;
+            border-radius: 10px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #1d4ed8;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Sehemu ya Juu (Header) -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-blue-800">MajiCrest 24/7</h1>
+            <a id="headerOrderBtn" href="#" target="_blank" class="bg-green-500 text-white font-bold py-2 px-4 rounded-lg hover:bg-green-600 transition duration-300 hidden sm:block">
+                Agiza Sasa
+            </a>
+        </div>
+    </header>
+
+    <!-- Sehemu Kuu (Hero Section) -->
+    <main class="container mx-auto px-6 py-12 md:py-20 text-center">
+        <h2 class="text-4xl md:text-5xl font-extrabold text-blue-900 mb-4">Maji Safi na Salama, Tunakuletea Popote Ulipo Dodoma Mjini!</h2>
+        <p class="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto mb-8">Huduma ya uhakika ya usambazaji wa maji ya kunywa. Weka oda yako sasa na tutakufikia kwa haraka.</p>
+        <a id="heroOrderBtn" href="#" target="_blank" class="bg-green-500 text-white font-bold py-3 px-8 rounded-full text-lg hover:bg-green-600 transition duration-300 shadow-lg">
+            Anza Kuagiza Hapa
+        </a>
+    </main>
+
+    <!-- Sehemu ya Bidhaa (Products) -->
+    <section class="bg-white py-12 md:py-20">
+        <div class="container mx-auto px-6">
+            <h3 class="text-3xl font-bold text-center mb-10 text-gray-800">Bidhaa Zetu</h3>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 justify-center">
+                <!-- Bidhaa 1: 20L -->
+                <div class="bg-gray-50 rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition duration-300">
+                    <img src="https://placehold.co/600x400/3b82f6/ffffff?text=Maji+20L" alt="Maji ya lita 20" class="w-full h-56 object-cover">
+                    <div class="p-6">
+                        <h4 class="font-bold text-xl mb-2">Maji ya Lita 20</h4>
+                        <p class="text-gray-600 mb-4">Kwa matumizi ya familia au ofisini.</p>
+                        <p class="font-bold text-2xl text-blue-700">TSh 4,000 <span class="text-lg font-medium text-gray-600">+ TSh 500 Delivery</span></p>
+                    </div>
+                </div>
+                <!-- Bidhaa 2: 13L -->
+                <div class="bg-gray-50 rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition duration-300">
+                    <img src="https://placehold.co/600x400/60a5fa/ffffff?text=Maji+13L" alt="Maji ya lita 13" class="w-full h-56 object-cover">
+                    <div class="p-6">
+                        <h4 class="font-bold text-xl mb-2">Maji ya Lita 13</h4>
+                        <p class="text-gray-600 mb-4">Saizi nzuri kwa matumizi ya kati.</p>
+                        <p class="font-bold text-2xl text-blue-700">TSh 2,600 <span class="text-lg font-medium text-gray-600">+ TSh 500 Delivery</span></p>
+                    </div>
+                </div>
+                <!-- Bidhaa 3: 10L -->
+                <div class="bg-gray-50 rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition duration-300">
+                    <img src="https://placehold.co/600x400/93c5fd/ffffff?text=Maji+10L" alt="Maji ya lita 10" class="w-full h-56 object-cover">
+                    <div class="p-6">
+                        <h4 class="font-bold text-xl mb-2">Maji ya Lita 10</h4>
+                        <p class="text-gray-600 mb-4">Rahisi kubeba na kutumia.</p>
+                        <p class="font-bold text-2xl text-blue-700">TSh 2,000 <span class="text-lg font-medium text-gray-600">+ TSh 500 Delivery</span></p>
+                    </div>
+                </div>
+                <!-- Bidhaa 4: 5L -->
+                <div class="bg-gray-50 rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition duration-300">
+                    <img src="https://placehold.co/600x400/bfdbfe/ffffff?text=Maji+5L" alt="Maji ya lita 5" class="w-full h-56 object-cover">
+                    <div class="p-6">
+                        <h4 class="font-bold text-xl mb-2">Maji ya Lita 5</h4>
+                        <p class="text-gray-600 mb-4">Inafaa kwa matumizi binafsi.</p>
+                        <p class="font-bold text-2xl text-blue-700">TSh 1,000 <span class="text-lg font-medium text-gray-600">+ TSh 500 Delivery</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sehemu ya Kuagiza (Order Section) -->
+    <section id="order-section" class="py-12 md:py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="bg-white rounded-2xl shadow-2xl p-8 md:p-12 max-w-3xl mx-auto text-center">
+                <h3 class="text-3xl font-bold mb-2 text-gray-800">Tayari Kuagiza?</h3>
+                <p class="text-center text-gray-500 mb-8">Bofya kitufe hapa chini kuanza mazungumzo nasi moja kwa moja kwenye WhatsApp.</p>
+                
+                <a id="mainOrderBtn" href="#" target="_blank" class="w-full md:w-auto bg-green-500 text-white font-bold py-4 px-10 rounded-lg text-lg hover:bg-green-600 transition duration-300 flex items-center justify-center mx-auto shadow-lg">
+                    <svg class="w-8 h-8 mr-3" fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.894 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.886-.001 2.269.655 4.357 1.849 6.069l-1.254 4.579 4.66-1.241z"/></svg>
+                    Tuma Ujumbe WhatsApp
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-blue-900 text-white py-8">
+        <div class="container mx-auto px-6 text-center">
+            <p>&copy; <span id="year"></span> MajiCrest 24/7. Haki zote zimehifadhiwa.</p>
+            <p class="text-blue-300 mt-2">Karibu pia kwa maoni ya kuboresha huduma Zetu</p>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // --- BADILISHA HAPA ---
+            // Weka namba yako ya biashara ya WhatsApp hapa.
+            // Anza na code ya nchi (255 kwa Tanzania) bila kuweka alama ya '+'.
+            const businessPhoneNumber = '255787187401'; 
+            // -----------------------
+
+            // Ujumbe wa awali utakaotumwa kwenye WhatsApp
+            const genericMessage = 'Habari MajiCrest 24/7! Naomba kuagiza maji.';
+            
+            // Encode ujumbe kwa ajili ya URL
+            const encodedMessage = encodeURIComponent(genericMessage);
+
+            // Tengeneza URL kamili ya WhatsApp
+            const whatsappUrl = `https://wa.me/${businessPhoneNumber}?text=${encodedMessage}`;
+
+            // Weka linki kwenye vifungo vyote vya kuagiza
+            const orderButtons = [
+                document.getElementById('headerOrderBtn'),
+                document.getElementById('heroOrderBtn'),
+                document.getElementById('mainOrderBtn')
+            ];
+
+            orderButtons.forEach(button => {
+                if (button) {
+                    button.href = whatsappUrl;
+                }
+            });
+
+            // Weka mwaka wa sasa kwenye footer
+            document.getElementById('year').textContent = new Date().getFullYear();
+        });
+    </script>
+
+</body>
+</html>
